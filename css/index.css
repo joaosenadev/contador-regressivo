@@ -76,7 +76,7 @@ body{
     padding: 0 50px 0 50px;
     border-radius: 25px;
 }
-#display h3{
+#display h4{
     font-size: 12rem;
     color: white;
 }
@@ -123,4 +123,119 @@ body{
     background-color: rgb(194, 0, 0);
     transform: scale(1.15);
     cursor: pointer;
+}
+
+
+
+@media (min-width: 300px) {
+    #display{
+        padding: 0 20px 0 40px;
+        border-radius: 20px;
+    }
+    #display h4{
+        text-align: center;
+        font-size: 5rem;
+        color: white;
+    }
+    #comecar{
+        width: 100px;
+        height: 40px;
+        border-radius: 5px;
+        font-size: 17px;
+    }
+    #parar{
+        width: 100px;
+        height: 40px;
+        border-radius: 5px;
+        font-size: 17px;
+    }
+    .buttons-start-end{
+        margin-top: 40px;
+        color: white;
+        gap: 20px;
+    }
+}
+@media (min-width: 425px) {
+    #display{
+        padding: 0 20px 0 40px;
+        border-radius: 20px;
+    }
+    #display h4{
+        text-align: center;
+        font-size: 7rem;
+        color: white;
+    }
+    #comecar{
+        width: 150px;
+        height: 50px;
+        border-radius: 5px;
+        font-size: 17px;
+    }
+    #parar{
+        width: 150px;
+        height: 50px;
+        border-radius: 5px;
+        font-size: 17px;
+    }
+    .buttons-start-end{
+        margin-top: 40px;
+        color: white;
+        gap: 30px;
+    }
+}
+@media (min-width: 768px) {
+    #display{
+        padding: 0 20px 0 40px;
+        border-radius: 20px;
+    }
+    #display h4{
+        text-align: center;
+        font-size: 10rem;
+        color: white;
+    }
+    #comecar{
+        width: 150px;
+        height: 50px;
+        border-radius: 5px;
+        font-size: 20px;
+    }
+    #parar{
+        width: 150px;
+        height: 50px;
+        border-radius: 5px;
+        font-size: 20px;
+    }
+    .buttons-start-end{
+        margin-top: 40px;
+        color: white;
+        gap: 30px;
+    }
+}
+@media (min-width: 1024px) {
+    #display{
+        padding: 0 20px 0 40px;
+        border-radius: 25px;
+    }
+    #display h4{
+        text-align: center;
+        font-size: 14rem;
+        color: white;
+    }
+    #comecar{
+        width: 150px;
+        height: 50px;
+        border-radius: 5px;
+        font-size: 25px;
+    }
+    #parar{
+        width: 150px;
+        height: 50px;
+        border-radius: 5px;
+        font-size: 25px;
+    }
+    .buttons-start-end{
+        margin-top: 40px;
+        color: white;
+        gap: 50px;
+    }
 }
