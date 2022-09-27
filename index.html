@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="shortcut icon" href="./img/icon.png" type="image/x-icon">
+    <title>Contador Regressivo Para Estudos</title>
+</head>
+<body>
+    <audio id="sound" src="./audio/alarme.mp3" style="display: none;"></audio>
+
+    <section class="container">
+
+        <div class="contador">
+            <div class="min">
+                <h2>Minutos</h2>
+                
+                <select class="select-number" id="minutos" name="minutos"></select>
+                
+            </div>
+
+            <!-- <div class="sec">
+                <h2>Segundos</h2>
+            
+                <select class="select-number" id="segundos" name="segundos"></select>
+            </div> -->
+        </div>
+
+
+        <div id="display">
+            <h3></h3>
+            <h3></h3>
+        </div>
+        
+
+        <div class="buttons-start-end">
+            <button id="comecar">Começar</button>
+            <button id="parar">Stop</button>
+        </div>
+    </section>
+
+    <script src="./js/contador.js"></script>
+</body>
+</html>
